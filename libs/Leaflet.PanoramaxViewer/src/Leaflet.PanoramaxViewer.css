@@ -1,0 +1,76 @@
+.leaflet-psv-container {
+    max-width: calc(100vw - 20px);
+    max-height: calc(100vh - 20px);
+}
+
+.leaflet-psv {
+    z-index: 750;
+    background-color: #FFF;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.leaflet-psv-open {
+    background-size: 20px 20px;
+    background-image: url("data:image/svg+xml,%3Csvg aria-hidden='true' focusable='false' data-prefix='fas' data-icon='panorama' class='svg-inline--fa fa-panorama' role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 512'%3E%3Cpath fill='currentColor' d='M45.6 32C20.4 32 0 52.4 0 77.6V434.4C0 459.6 20.4 480 45.6 480c5.1 0 10-.8 14.7-2.4C74.6 472.8 177.6 440 320 440s245.4 32.8 259.6 37.6c4.7 1.6 9.7 2.4 14.7 2.4c25.2 0 45.6-20.4 45.6-45.6V77.6C640 52.4 619.6 32 594.4 32c-5 0-10 .8-14.7 2.4C565.4 39.2 462.4 72 320 72S74.6 39.2 60.4 34.4C55.6 32.8 50.7 32 45.6 32zM96 160a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm272 0c7.9 0 15.4 3.9 19.8 10.5L512.3 353c5.4 8 5.6 18.4 .4 26.5s-14.7 12.3-24.2 10.7C442.7 382.4 385.2 376 320 376c-65.6 0-123.4 6.5-169.3 14.4c-9.8 1.7-19.7-2.9-24.7-11.5s-4.3-19.4 1.9-27.2L197.3 265c4.6-5.7 11.4-9 18.7-9s14.2 3.3 18.7 9l26.4 33.1 87-127.6c4.5-6.6 11.9-10.5 19.8-10.5z'%3E%3C/path%3E%3C/svg%3E");
+    cursor: pointer;
+}
+
+.leaflet-psv-close {
+    /* position: absolute; */
+    /* z-index: inherit; */
+    width: 30px;
+    height: 30px;
+    background-color: #FFF;
+    /* border-radius: inherit; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.leaflet-psv-sizeresetbutton, .leaflet-psv-photolocationbutton {
+    background-size: 20px;
+    background-color: #FFF;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}
+
+.leaflet-psv-sizeresetbutton {
+    background-image: url("data:image/svg+xml,%3Csvg id='svg' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='400' height='400' viewBox='0, 0, 400,400' version='1.1'%3E%3Cg id='svgg'%3E%3Cpath id='path0' d='M18.728 20.592 L 8.826 30.927 44.523 66.745 L 80.220 102.564 52.076 102.564 L 23.932 102.564 23.932 117.949 L 23.932 133.333 78.632 133.333 L 133.333 133.333 133.333 78.632 L 133.333 23.932 117.949 23.932 L 102.564 23.932 102.564 52.076 L 102.564 80.220 67.463 45.238 C 27.171 5.084,31.492 7.269,18.728 20.592 M332.458 45.278 L 297.436 80.300 297.436 52.116 L 297.436 23.932 282.051 23.932 L 266.667 23.932 266.667 78.632 L 266.667 133.333 321.368 133.333 L 376.068 133.333 376.068 117.949 L 376.068 102.564 347.924 102.564 L 319.780 102.564 355.477 66.745 L 391.174 30.927 381.272 20.592 C 368.464 7.223,372.609 5.127,332.458 45.278 M23.932 282.051 L 23.932 297.436 52.076 297.436 L 80.220 297.436 44.447 333.331 L 8.674 369.226 19.724 380.276 L 30.774 391.326 66.669 355.553 L 102.564 319.780 102.564 347.924 L 102.564 376.068 117.949 376.068 L 133.333 376.068 133.333 321.368 L 133.333 266.667 78.632 266.667 L 23.932 266.667 23.932 282.051 M266.667 321.368 L 266.667 376.068 282.051 376.068 L 297.436 376.068 297.436 347.924 L 297.436 319.780 333.331 355.553 L 369.226 391.326 380.276 380.276 L 391.326 369.226 355.553 333.331 L 319.780 297.436 347.924 297.436 L 376.068 297.436 376.068 282.051 L 376.068 266.667 321.368 266.667 L 266.667 266.667 266.667 321.368 ' stroke='none' fill='%23000000' fill-rule='evenodd'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+}
+
+.leaflet-psv-photolocationbutton {
+    background-image: url("data:image/svg+xml,%3Csvg id='svg' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='400' height='400' viewBox='0, 0, 400,400'%3E%3Cg id='svgg'%3E%3Cpath id='path0' d='M143.125 68.585 C 131.091 75.548,123.683 90.498,120.633 113.974 L 119.873 119.822 85.874 120.240 C 55.233 120.616,51.381 120.898,46.875 123.093 C 37.966 127.432,31.590 133.432,27.898 140.951 L 24.375 148.125 24.375 230.000 C 24.375 307.452,24.501 312.111,26.702 316.250 C 29.951 322.357,35.981 328.486,41.875 331.672 L 46.875 334.375 195.000 334.747 C 329.506 335.086,343.763 334.931,350.059 333.064 C 359.720 330.199,367.392 324.252,371.875 316.151 L 375.625 309.375 375.625 228.125 L 375.625 146.875 372.678 140.358 C 364.699 122.713,356.521 119.419,320.625 119.394 C 291.917 119.374,291.303 119.255,291.269 113.700 C 291.206 103.235,283.776 85.184,276.106 76.863 C 265.340 65.183,268.334 65.670,205.000 65.297 L 149.375 64.969 143.125 68.585 M221.250 144.408 C 293.002 166.373,302.555 263.201,236.339 297.333 C 180.878 325.920,115.904 285.867,116.150 223.243 C 116.363 169.197,170.231 128.790,221.250 144.408 M321.359 165.350 C 334.639 174.299,329.064 192.500,313.044 192.500 C 308.121 192.500,306.611 191.861,303.000 188.250 C 290.479 175.729,306.713 155.480,321.359 165.350 M180.723 172.561 C 127.572 191.331,134.211 268.192,189.807 277.725 C 241.080 286.518,273.471 223.054,236.854 185.548 C 222.990 171.348,199.529 165.919,180.723 172.561 ' stroke='none' fill='%23000000' fill-rule='evenodd'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+}
+
+.leaflet-psv-photothumbnail {
+    width: 200px;
+}
+
+.leaflet-psv-openner:hover, .leaflet-psv-closer:hover, .leaflet-psv-sizeresetbutton:hover, .leaflet-psv-photolocationbutton:hover {
+    background-color: #f4f4f4;
+}
+.leaflet-psv-photolocationenable {
+    background-color: #bbb !important;
+}
+
+
+.leaflet-psv-menubar {
+    display: flex;
+    background-color: #FFF;
+}
+
+.leaflet-psv-toolsbar {
+    display: flex;
+    background-color: #FFF;
+    width: 100%;
+    display: flex;
+}

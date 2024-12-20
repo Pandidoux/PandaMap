@@ -1,0 +1,63 @@
+.leaflet-layer-opacity-content {
+	padding: 5px;
+	border-radius: 2px;
+    background-color: #fff;
+}
+.leaflet-layer-opacity-toggle {
+	border-bottom: none !important;
+	border-radius: 2px;
+}
+.leaflet-layer-opacity-toggleimg {
+    background-size: 20px 20px;
+    border: 0;
+    border-radius: 4px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    box-shadow: none;
+    border-radius: 4px;
+    background-image: url('data:image/svg+xml;utf8,%3Csvg%20id%3D%22svg%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20width%3D%22400%22%20height%3D%22400%22%20viewBox%3D%220%2C%200%2C%20400%2C400%22%3E%3Cg%20id%3D%22svgg%22%3E%3Cpath%20id%3D%22path0%22%20d%3D%22M256.725%2053.533%20C%20244.915%2056.775%2C233.857%2065.880%2C228.516%2076.758%20L%20225.544%2082.813%20133.280%2082.817%20C%2071.786%2082.820%2C40.039%2083.092%2C38.089%2083.634%20C%2029.399%2086.047%2C25.675%2097.813%2C31.326%20104.998%20C%2035.679%20110.531%2C28.353%20110.156%2C132.207%20110.156%20L%20225.414%20110.156%20227.895%20115.430%20C%20243.784%20149.194%2C292.373%20149.613%2C308.278%20116.123%20L%20311.111%20110.156%20335.973%20110.156%20C%20361.747%20110.156%2C363.640%20109.951%2C367.095%20106.784%20C%20373.717%20100.714%2C372.889%2090.263%2C365.394%2085.300%20L%20362.227%2083.203%20336.631%2082.968%20L%20311.034%2082.734%20308.215%2077.029%20C%20298.945%2058.267%2C276.607%2048.074%2C256.725%2053.533%20M99.388%20156.601%20C%2086.118%20159.814%2C73.424%20170.776%2C68.582%20183.203%20L%2067.364%20186.328%2052.237%20186.719%20C%2036.070%20187.136%2C35.182%20187.340%2C31.745%20191.424%20C%2027.472%20196.503%2C27.476%20203.502%2C31.754%20208.586%20C%2035.443%20212.971%2C36.820%20213.281%2C52.568%20213.281%20L%2066.932%20213.281%2070.140%20219.727%20C%2086.489%20252.576%2C134.175%20252.524%2C149.744%20219.640%20L%20152.734%20213.324%20257.265%20213.302%20C%20372.477%20213.279%2C363.848%20213.666%2C368.555%20208.306%20C%20373.981%20202.126%2C372.229%20192.894%2C364.768%20188.346%20C%20362.113%20186.727%2C361.971%20186.725%2C257.422%20186.700%20L%20152.734%20186.676%20149.744%20180.360%20C%20141.118%20162.141%2C119.206%20151.802%2C99.388%20156.601%20M262.500%20259.109%20C%20247.257%20261.471%2C234.502%20270.860%2C227.927%20284.559%20L%20225.391%20289.843%20132.201%20289.844%20C%2029.684%20289.844%2C36.090%20289.529%2C31.472%20294.789%20C%2025.970%20301.054%2C27.737%20310.832%2C35.159%20315.192%20C%2037.863%20316.781%2C38.829%20316.801%2C131.791%20317.188%20L%20225.691%20317.578%20228.598%20323.438%20C%20244.639%20355.776%2C292.562%20355.618%2C308.166%20323.176%20L%20311.047%20317.188%20335.015%20317.183%20C%20361.320%20317.178%2C363.527%20316.890%2C367.478%20312.939%20C%20374.053%20306.363%2C372.331%20295.624%2C364.020%20291.384%20C%20361.201%20289.946%2C359.341%20289.844%2C336.087%20289.844%20L%20311.175%20289.844%20308.195%20283.789%20C%20299.969%20267.075%2C280.155%20256.374%2C262.500%20259.109%20%22%20stroke%3D%22none%22%20fill%3D%22%23000000%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fg%3E%3C%2Fsvg%3E');
+}
+.leaflet-layer-opacity-layer-container {
+    border: 1px solid red;
+}
+.leaflet-layer-opacity-title {
+	font-size: 1.2em;
+	text-align: center;
+	font-weight: bold;
+}
+.leaflet-layer-opacity-slider-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.leaflet-layer-opacity-slider {
+    height: 1em;
+    width: calc(100% - 3em);
+    margin-right: 5px;
+}
+.leaflet-layer-opacity-slider-container output {
+    font-size: 0.9em;
+}
+.leaflet-layer-opacity-label {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 1.5em;
+}
+.leaflet-layer-opacity-sliders {
+    max-height: 20em;
+    overflow-y: auto;
+}
+.leaflet-layer-opacity-label a {
+	color: #0078a8;
+    width: unset !important;
+    margin-left: 5px;
+}
+.leaflet-layer-opacity-label a:focus, .leaflet-layer-opacity-label a:hover {
+    text-decoration: underline;
+    background-color: unset;
+}

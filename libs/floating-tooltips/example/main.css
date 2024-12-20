@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+.reference {
+    position: absolute;
+    background-color: blue;
+    color: white;
+}
+
+#drag                { top: 150px; left: 100px; z-index: 9999999; }
+#corner-top-left     { top:0; left:0; }
+#corner-top          { top:0; left:50%; }
+#corner-top-right    { top:0; right:0; }
+#corner-right        { top:50%; right:0; }
+#corner-bottom-right { bottom:0; right:0; }
+#corner-bottom       { bottom:0; left:50%; }
+#corner-bottom-left  { bottom:0; left:0; }
+#corner-left         { top:50%; left:0; }
+
+#button-show {
+    position: absolute;
+    left: 50%;
+    bottom: 33%;
+}
+
+
+
+
+

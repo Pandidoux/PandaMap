@@ -1,0 +1,11 @@
+/*Permet d'avoir une carte qui prend toute la page*/
+body {
+    margin: 0;
+}
+#mapdiv {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+

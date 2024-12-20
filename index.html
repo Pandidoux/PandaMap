@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Panda-Map</title>
+
+    <!-- Android -->
+    <link rel="manifest" href="./imgs/site.webmanifest">
+    <!-- iOS -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./imgs/apple-touch-icon.png">
+    <!-- MS -->
+    <meta name="msapplication-TileColor" content="#AAAAAA">
+    <meta name="msapplication-config" content="./imgs/browserconfig.xml">
+    <!-- Browsers -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./imgs/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./imgs/favicon-16x16.png">
+    <link rel="shortcut icon" href="./imgs/favicon.ico">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="./style/map.css" rel="stylesheet">
+
+    <!-- Leaflet -->
+    <link href="https://cdn.jsdelivr.net/npm/leaflet@1.9/dist/leaflet.min.css" rel="stylesheet">
+    <!-- Plugin Leaflet Geosearch -->
+    <link href="https://cdn.jsdelivr.net/npm/leaflet-geosearch@4/dist/geosearch.min.css" rel="stylesheet">
+    <!-- Plugin leaflet.fullscreen -->
+    <link href="https://cdn.jsdelivr.net/npm/leaflet-fullscreen@1/dist/leaflet.fullscreen.min.css" rel="stylesheet">
+    <!-- Leaflet.Measure -->
+    <link href="https://cdn.jsdelivr.net/gh/ptma/Leaflet.Measure@1/src/leaflet.measure.css" rel="stylesheet">
+    <!-- Leaflet.LayerOpacity -->
+    <link href="./libs/leaflet.layeropacity/src/Leaflet.LayerOpacity.min.css" rel="stylesheet">
+    <!-- Panoramax -->
+    <link href="https://cdn.jsdelivr.net/npm/@panoramax/web-viewer@3/build/index.min.css" rel="stylesheet">
+    <!-- Leaflet.PanoramaxViewer -->
+    <link href="./libs/Leaflet.PanoramaxViewer/src/Leaflet.PanoramaxViewer.css" rel="stylesheet">
+    <!-- GpPluginLeaflet -->
+    <link href="https://cdn.jsdelivr.net/npm/geoportal-extensions-leaflet@2.4/dist/GpPluginLeaflet.min.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+    <div id="mapdiv"></div>
+
+    <!-- Leaflet -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9/dist/leaflet.min.js"></script>
+    <!-- Plugin Leaflet Geosearch -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-geosearch@4/dist/bundle.min.js"></script>
+    <!-- Plugin leaflet.fullscreen -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-fullscreen@1/dist/Leaflet.fullscreen.min.js"></script>
+    <!-- Leaflet.EdgeBuffer -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-edgebuffer/src/leaflet.edgebuffer.min.js"></script>
+    <!-- Leaflet.GridLayer.FadeOut -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.gridlayer.fadeout/Leaflet.GridLayer.FadeOut.min.js"></script>
+    <!-- Leaflet.Measure -->
+    <script src="https://cdn.jsdelivr.net/gh/ptma/Leaflet.Measure@1/src/leaflet.measure.js"></script>
+    <!-- Leaflet.LayerOpacity -->
+    <script src="./libs/leaflet.layeropacity/src/Leaflet.LayerOpacity.min.js"></script>
+    <!-- Panoramax -->
+    <script src="https://cdn.jsdelivr.net/npm/@panoramax/web-viewer@3/build/index.min.js"></script>
+    <!-- Leaflet.PanoramaxViewer -->
+    <script src="./libs/Leaflet.PanoramaxViewer/src/Leaflet.PanoramaxViewer.js"></script>
+    <!-- GpPluginLeaflet -->
+    <script src="https://cdn.jsdelivr.net/npm/geoportal-extensions-leaflet@2.4/dist/GpPluginLeaflet-src.min.js"></script>
+
+    <script type="text/javascript" src="./javascript/functions.js"></script>
+    <script type="text/javascript" src="./javascript/layers.js"></script>
+    <script type="text/javascript" src="./javascript/map.js"></script>
+
+</body>
+
+</html>
