@@ -147,6 +147,26 @@ if (typeof L.control.fullscreen == 'function') {
 // ========== Fullscreen Control STOP ==========
 
 
+// ========== Leaflet-LocateControl START ==========
+L.control.locate({
+    position: 'topright',
+    flyTo: true,
+    showCompass: true,
+    drawCircle: true,
+    drawMarker: true,
+    metric: true,
+    showPopup: true,
+    strings: {
+        title: "Montrez moi ma position",
+        metersUnit: "metres",
+        feetUnit: "pieds",
+        popup: "Vous êtes dans les {distance} {unit} autour de ce point",
+        outsideMapBoundsMsg: "Vous semblez localisé en dehors des bordures de carte"
+    },
+}).addTo(app.map);
+// ========== Leaflet-LocateControl STOP ==========
+
+
 // ========== Scale control START ==========
 L.control.scale({
     position: (window.isMobileDevice) ? 'bottomright' : 'bottomleft',
